@@ -25,6 +25,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'slim-rails', '~> 3.0.1'
 gem 'simple_form', '~> 3.1.1'
+gem 'bootstrap-sass', '~> 3.3.5.1'
+gem 'autoprefixer-rails', '~> 5.2.1.3'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
