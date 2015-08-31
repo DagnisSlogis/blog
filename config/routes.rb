@@ -54,5 +54,5 @@ Rails.application.routes.draw do
   #     resources :products
   #   end
 
-  get '/' => 'post#index'
+resource :posts
 end
