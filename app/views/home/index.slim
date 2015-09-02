@@ -1,0 +1,17 @@
+-if @posts
+  -@posts.each do |post|
+    div class="col-md-12"
+      div class="postMeta"
+        = image_tag(post.posthead.url, :class => "postHeader")
+        h2 class="postTitle" =post.title
+        div class="btn-group"
+          button type="button" class="btn btn-default" Action
+          button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+            span class="caret"
+            span class="sr-only" Toggle Dropdown
+          ul class="dropdown-menu"
+            li: a href="#" Share
+            li: a href="#" Edit
+            li: a href="#" Delete
+      p =post.text
+      hr
