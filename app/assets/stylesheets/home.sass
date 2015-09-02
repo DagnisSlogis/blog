@@ -1,17 +1,29 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-.postMeta
-  display: flex
-  align-items: center
-  margin: 10px 0
-  .postHeader
-    width: 60px
-    height: 60px
-    border-radius: 60px
-    border: 3px solid #eee
-    float: left
-  .postTitle
-    margin: 0 20px
-  .postOptions
-    float: right
+.post
+    background: white
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)
+    margin: 5px
+    border-radius: 3px
+    .postMeta
+        display: flex
+        align-items: center
+        margin: 10px 0
+        .postHeader
+            width: 60px
+            height: 60px
+            border-radius: 60px
+            border: 3px solid #eee
+            float: left
+        .postTitle
+            margin: 0 20px
+        .postOptions
+            float: right
+    .postActions
+        display: flex
+        list-style: none
+        font:
+            size: 13px
+            weight: 500
+        justify-content: space-around

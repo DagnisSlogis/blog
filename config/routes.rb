@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
-resource :posts
+resources :posts
 get '/' => 'home#index'
 end
